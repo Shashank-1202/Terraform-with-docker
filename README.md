@@ -39,9 +39,9 @@ sudo usermod -aG docker ec2 # Add ec2-user to the docker group
 newgrp docker
 ```
 
- 🏁  docker images # check the nginx image
+ 🏁  docker images   # check the nginx image
 
- 🏁  docker ps  # check the running nginx container
+ 🏁  docker ps       # check the running nginx container
 
 create directory and execute the files by 
 ```sh
