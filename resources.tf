@@ -9,6 +9,6 @@ resource "docker_container" "nginx" {
 
   ports {
     internal = 80   # Port inside the container
-    external = 8080 # Port on the host machine
+    external = 80   # Port on the host machine
   }
 }
